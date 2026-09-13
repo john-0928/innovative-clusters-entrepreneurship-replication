@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the Zenodo record and the associated article."
+title: "How innovative industrial clusters affect entrepreneurship in Chinese cities"
+version: "1.0.0"
+date-released: "YYYY-MM-DD"
+type: dataset
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+    affiliation: "TODO"
+    orcid: "https://orcid.org/TODO"
+repository-code: "https://github.com/TODO/TODO"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.TODO"
+    description: "DOI for this version of the replication package"

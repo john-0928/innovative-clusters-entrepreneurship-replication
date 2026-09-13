@@ -1,0 +1,30 @@
+{
+  "title": "How innovative industrial clusters affect entrepreneurship in Chinese cities",
+  "description": "Urban entrepreneurial activity is highly uneven across space, making place-based industrial policy central to sustainable urban development. This study exploits the phased rollout of China's innovative industrial cluster policy as a quasi-natural experiment and uses new-firm registration data for 284 cities from 2009 to 2024. The manuscript reports that the policy increased urban entrepreneurial vitality in pilot cities relative to non-pilot cities through resource agglomeration, easing financing constraints and expanding market demand, and generated spatial spillovers that peaked near 100 km and continued to about 200 km.",
+  "upload_type": "dataset",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "restricted",
+  "license": "TODO",
+  "creators": [
+    {
+      "name": "TODO, TODO",
+      "affiliation": "TODO",
+      "orcid": "TODO"
+    }
+  ],
+  "keywords": [
+    "Innovative industrial clusters",
+    "Urban entrepreneurial vitality",
+    "Spatial spillovers",
+    "Resource agglomeration",
+    "Financing constraints",
+    "Market demand",
+    "China",
+    "difference in differences",
+    "spatial econometrics",
+    "Stata",
+    "replication package"
+  ],
+  "related_identifiers": []
+}
