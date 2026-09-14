@@ -1,6 +1,6 @@
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Copyright (c) 2026 Jihong Chen, Zijia Du, Siyang She, and Jianghao Xu.
+Copyright (c) 2026 Biao Li, Mengtong Chen, Siyang She, Jihong Chen, and Jianghao Xu.
 
 Except where otherwise noted, the data, documentation, metadata, and result
 tables in this repository are licensed under the Creative Commons Attribution

@@ -31,10 +31,11 @@ Urban entrepreneurial activity is highly uneven across space, making place-based
 - The Code availability section contains an empty GitHub repository placeholder.
 - The final Code availability statement should distinguish two linked records: this analysis-data-and-Stata-code DOI and a separate figure-data-and-code DOI.
 - The original enterprise-level registration data cannot be publicly shared according to the manuscript.
-- The manuscript body did not provide the author list, but the uploader subsequently supplied four authors in publication order, all affiliated with Shenzhen University: Jihong Chen, Zijia Du, Siyang She, and Jianghao Xu. Siyang She and Jianghao Xu were identified as corresponding authors.
-- The uploader stated that none of the four authors has an ORCID. The corresponding-author emails are ssy1155164037@163.com for Siyang She and jh1464439080@163.com for Jianghao Xu.
+- The manuscript body did not provide the author list. The uploader corrected the creators on 2026-09-14 to the following publication order: Biao Li, Mengtong Chen, Siyang She, Jihong Chen, and Jianghao Xu. Jihong Chen and Jianghao Xu were identified as corresponding authors.
+- The corresponding-author emails are jihongchen@szu.edu.cn for Jihong Chen and jh1464439080@163.com for Jianghao Xu. No ORCID was supplied for the corrected creator list.
+- The uploader confirmed Biao Li's affiliation as China Center for Special Economic Zone Research, Shenzhen University (深圳大学中国经济特区研究中心), and Mengtong Chen's affiliation as Shenzhen University (深圳大学).
 - The funding statement, article DOI, and final GitHub URL remain to be supplied.
 
 ## Document identity note
 
-The filename and Word core properties mention Li Biao, but these identify a file owner/editor rather than a verified author. Li Biao was therefore not added to the creator list. The creator list above comes from the uploader's explicit submission on 2026-09-13.
+The filename and Word core properties mention Li Biao. The uploader's explicit correction on 2026-09-14 independently confirms Biao Li as the first author; the corrected creator list above therefore supersedes the earlier provisional list.

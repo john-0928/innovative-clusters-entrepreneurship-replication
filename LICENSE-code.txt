@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Jihong Chen, Zijia Du, Siyang She, and Jianghao Xu
+Copyright (c) 2026 Biao Li, Mengtong Chen, Siyang She, Jihong Chen, and Jianghao Xu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

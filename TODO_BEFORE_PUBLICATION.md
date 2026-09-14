@@ -5,10 +5,11 @@ Do not publish the Zenodo record until every blocking item is resolved.
 ## Blocking metadata
 
 - [x] Extracted manuscript title: *How innovative industrial clusters affect entrepreneurship in Chinese cities*.
-- [x] Added the four creators in the supplied publication order, all affiliated with Shenzhen University.
-- [x] Recorded Siyang She and 徐江昊 as corresponding authors.
-- [x] Confirmed Jianghao Xu as the English name for 徐江昊; recorded that none of the four authors has an ORCID.
-- [x] Added the supplied email addresses for both corresponding authors.
+- [x] Corrected the creator list on 2026-09-14 to five authors in this order: Biao Li, Mengtong Chen, Siyang She, Jihong Chen, and Jianghao Xu.
+- [x] Recorded Jihong Chen and Jianghao Xu as corresponding authors; removed the previous incorrect corresponding-author designation for Siyang She.
+- [x] Added the supplied corresponding-author emails for Jihong Chen and Jianghao Xu.
+- [x] Recorded Biao Li's affiliation as China Center for Special Economic Zone Research, Shenzhen University, and Mengtong Chen's affiliation as Shenzhen University.
+- [ ] Add ORCIDs for the corrected five-author list if any are available; otherwise omit them.
 - [x] Added a repository description based on the manuscript abstract.
 - [ ] Add the journal article DOI as a related identifier after it exists. Do not enter the article DOI as the DOI of this dataset.
 - [ ] Confirm the publication date and package version.
@@ -43,7 +44,7 @@ Do not publish the Zenodo record until every blocking item is resolved.
 - [ ] Review the manuscript-derived fields added to `data/data_dictionary.csv`, resolve the financial-development and human-capital definition conflicts, and complete variables still marked undocumented.
 - [x] Selected the MIT License for the Stata code and created `LICENSE-code.txt`.
 - [x] Selected CC BY 4.0 for data and documentation and created `LICENSE-data.txt`.
-- [x] Added the four authors as copyright holders.
+- [x] Added the corrected five authors as copyright holders.
 - [x] Converted the GitHub/Zenodo citation, metadata, and license templates required for the first release into final root files.
 
 ## Final Zenodo checks

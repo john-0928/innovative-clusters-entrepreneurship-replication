@@ -11,12 +11,13 @@
 
 ## Creators
 
-The uploader supplied the following creator order on 2026-09-13. Use the English names in Zenodo.
+The uploader corrected the creator list on 2026-09-14. Use the following order and English names in Zenodo.
 
-1. Chen, Jihong (陈继红) — Shenzhen University — not corresponding — ORCID: none
-2. Du, Zijia (杜梓佳) — Shenzhen University — not corresponding — ORCID: none
-3. She, Siyang (佘思扬) — Shenzhen University — corresponding author — email: ssy1155164037@163.com — ORCID: none
-4. Xu, Jianghao (徐江昊) — Shenzhen University — corresponding author — email: jh1464439080@163.com — ORCID: none
+1. Li, Biao (李彪) — China Center for Special Economic Zone Research, Shenzhen University (深圳大学中国经济特区研究中心) — ORCID: omit unless supplied
+2. Chen, Mengtong (陈梦彤) — Shenzhen University (深圳大学) — ORCID: omit unless supplied
+3. She, Siyang (佘思扬) — Shenzhen University — not corresponding — ORCID: omit unless supplied
+4. Chen, Jihong (陈继红) — Shenzhen University — corresponding author — email: jihongchen@szu.edu.cn — ORCID: omit unless supplied
+5. Xu, Jianghao (徐江昊) — Shenzhen University — corresponding author — email: jh1464439080@163.com — ORCID: omit unless supplied
 
 Zenodo does not provide a dedicated corresponding-author switch in the basic creator list. When email addresses are available, identify the corresponding authors in the contact/contributor information or the record description if required by the journal workflow.
 
@@ -60,4 +61,4 @@ Do not enter the journal article DOI as this dataset's DOI.
 
 - Funding: TODO
 - Data curator: TODO
-- Contact persons: Siyang She (ssy1155164037@163.com) and Jianghao Xu (jh1464439080@163.com)
+- Contact persons: Jihong Chen (jihongchen@szu.edu.cn) and Jianghao Xu (jh1464439080@163.com)
