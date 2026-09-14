@@ -1,0 +1,20 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Jihong Chen, Zijia Du, Siyang She, and Jianghao Xu.
+
+Except where otherwise noted, the data, documentation, metadata, and result
+tables in this repository are licensed under the Creative Commons Attribution
+4.0 International License.
+
+You may share and adapt these materials for any purpose, including commercial
+purposes, provided that you give appropriate credit, provide a link to the
+license, and indicate whether changes were made. You may not apply legal terms
+or technological measures that legally restrict others from doing anything the
+license permits.
+
+License deed: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+SPDX identifier: CC-BY-4.0
+
+Third-party source materials and database rights remain subject to their own
+terms and are not relicensed beyond the permissions applicable to them.

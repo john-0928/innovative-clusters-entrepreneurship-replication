@@ -1,0 +1,42 @@
+{
+  "title": "Replication data and Stata analysis code for How innovative industrial clusters affect entrepreneurship in Chinese cities",
+  "description": "This first replication record contains processed city-level panel data and Stata empirical-analysis code for a study of China's innovative industrial cluster policy across 284 cities from 2009 to 2024. It also includes spatial-weight inputs and matrices, annual Moran's I results and reported result tables. Figure-source data and full figure-generation code will be deposited in a separate linked DOI record. The original firm-level registration data are not included.",
+  "upload_type": "dataset",
+  "version": "1.0.0",
+  "publication_date": "2026-09-13",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Chen, Jihong",
+      "affiliation": "Shenzhen University"
+    },
+    {
+      "name": "Du, Zijia",
+      "affiliation": "Shenzhen University"
+    },
+    {
+      "name": "She, Siyang",
+      "affiliation": "Shenzhen University"
+    },
+    {
+      "name": "Xu, Jianghao",
+      "affiliation": "Shenzhen University"
+    }
+  ],
+  "keywords": [
+    "Innovative industrial clusters",
+    "Urban entrepreneurial vitality",
+    "Spatial spillovers",
+    "Resource agglomeration",
+    "Financing constraints",
+    "Market demand",
+    "China",
+    "difference in differences",
+    "spatial econometrics",
+    "Stata",
+    "replication package"
+  ],
+  "related_identifiers": []
+}

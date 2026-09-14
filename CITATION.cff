@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the Zenodo record and the associated article."
+title: "Replication data and Stata analysis code for How innovative industrial clusters affect entrepreneurship in Chinese cities"
+version: "1.0.0"
+date-released: "2026-09-13"
+type: dataset
+authors:
+  - family-names: "Chen"
+    given-names: "Jihong"
+    affiliation: "Shenzhen University"
+  - family-names: "Du"
+    given-names: "Zijia"
+    affiliation: "Shenzhen University"
+  - family-names: "She"
+    given-names: "Siyang"
+    affiliation: "Shenzhen University"
+    email: "ssy1155164037@163.com"
+  - family-names: "Xu"
+    given-names: "Jianghao"
+    affiliation: "Shenzhen University"
+    email: "jh1464439080@163.com"
+repository-code: "https://github.com/john-0928/innovative-clusters-entrepreneurship-replication"

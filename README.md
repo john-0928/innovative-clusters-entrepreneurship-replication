@@ -1,19 +1,14 @@
 # How innovative industrial clusters affect entrepreneurship in Chinese cities
 
-This draft replication package contains the Stata code, processed city-level panel datasets, spatial-weight inputs, precomputed spatial matrices, and reported result tables supporting the manuscript *How innovative industrial clusters affect entrepreneurship in Chinese cities*. The primary balanced panel covers 284 Chinese prefecture-level cities from 2009 through 2024 (4,544 city-year observations). The study treats the phased 2013, 2014, 2017 and 2023 pilot cohorts as a quasi-natural experiment.
-
-This revised draft also contains the curated Python code, figure-ready input
-tables, required map layers, and selected high-resolution exports for the current
-main and supplementary figures. All included figure scripts use package-relative
-paths and were rerun successfully during package assembly.
+This draft package is the first of two planned research records. It contains processed city-level analysis datasets, Stata empirical-analysis code, spatial-weight inputs, precomputed spatial matrices, and reported result tables supporting the manuscript *How innovative industrial clusters affect entrepreneurship in Chinese cities*. The primary balanced panel covers 284 Chinese prefecture-level cities from 2009 through 2024 (4,544 city-year observations). The study treats the phased 2013, 2014, 2017 and 2023 pilot cohorts as a quasi-natural experiment. Figure-source data and full figure-generation code will be deposited separately and linked by DOI.
 
 ## Important publication status
 
-This package is technically organized for a Zenodo draft, but it is not ready for public release until the authors complete the rights, provenance, metadata, and software-environment items in `TODO_BEFORE_PUBLICATION.md`. The manuscript identifies the main data sources, but access dates, exact editions, construction code, and redistribution terms for the processed city-level indicators remain incomplete.
+This package is technically organized for a Zenodo draft. A structural disclosure review found no enterprise-level or person-level records, and the uploader confirmed on 2026-09-13 that the bundled processed datasets may be uploaded publicly. Before final Zenodo publication, complete the remaining creator metadata, license selection, provenance details, and software-environment items in `TODO_BEFORE_PUBLICATION.md`.
 
 ## Recommended Zenodo record type
 
-Use one combined **Dataset** record titled as a replication package, with the Stata code included. This is preferable here because the code depends directly on the bundled data and the data are the larger research object. If a journal explicitly requires separate data and code DOIs, split this draft only after confirming that requirement and link the two records with related identifiers.
+Use a **Dataset** record titled as an analysis-data and Stata-code package. This first DOI covers the prepared empirical datasets and the code that analyses them. Create a second Zenodo record later for figure-source data and full figure-generation code, then link the two records with related identifiers.
 
 ## Directory structure
 
@@ -22,14 +17,13 @@ code/
   master_analysis.do              portable analysis script
   check_dependencies.do           non-installing dependency check
   original/                       exact supplied script
-  figures/                        portable Python figure scripts and runner
 data/
   stata/                          authoritative .dta files with normalized names
   csv/                            preservation-friendly mirrors
   dataset_inventory.csv           file roles, dimensions, keys, and checksums
   data_dictionary.csv             variable labels, definitions, and missingness
-  figure_inputs/                  figure-ready workbooks and event-time CSV
 documentation/
+  DATA_SCOPE_AND_DISCLOSURE_REVIEW.md review confirming the released data are aggregate
   final_result_tables.docx         exact supplied results document
 results/
   tables_csv/                      text-preserving CSV extraction of all 17 tables
@@ -41,11 +35,9 @@ metadata/
 provenance/
   sources_and_processing.md        provenance form to complete
 outputs/                            generated when the cleaned script is run
-figures/
-  final/                            selected manuscript/reference exports
-  generated/                        outputs from the reproducibility test run
-maps/                               map layers required by the figure scripts
-.zenodo.json.template              GitHub-to-Zenodo metadata template
+.zenodo.json                       GitHub-to-Zenodo metadata
+CITATION.cff                       citation metadata for GitHub
+LICENSE                            file-level licensing summary
 ```
 
 ## How to run
@@ -55,16 +47,6 @@ maps/                               map layers required by the figure scripts
 3. Run `do "code/check_dependencies.do"`.
 4. Install or restore any missing user-written packages in a controlled environment and record their versions.
 5. Run `do "code/master_analysis.do"`.
-
-To reproduce the figures, install the Python packages listed in
-`environment/requirements-figures.txt`, then run:
-
-```bash
-python code/figures/run_all.py
-```
-
-The figure runner writes to `figures/generated/` and does not overwrite
-`figures/final/`.
 
 The cleaned script uses only relative paths and creates its own output folders. It also sets the random seed to `10101` before the placebo simulation. The original code did not set a seed before that simulation, so a newly generated placebo distribution may not match the supplied result exactly.
 
@@ -77,18 +59,13 @@ The cleaned script uses only relative paths and creates its own output folders. 
 - Redirected generated tables, figures, logs, and derived data to `outputs/`.
 - Exported the descriptive treatment-group means that were previously calculated and then discarded.
 - Preserved the exact original do-file in `code/original/`.
-- Added a curated, numbered set of portable Python plotting scripts.
-- Added figure-ready source tables and the map layers actually referenced by the
-  scripts.
-- Added selected final PNG/PDF/SVG exports and excluded redundant historical
-  drafts and very large AI/SVG working files.
 
-These changes address portability and an evident state-management error. They do not validate the statistical specifications or guarantee numerical equality with the submitted tables. The manuscript also states that data-cleaning, variable-construction and figure-generation code will be available, but those components were not present in the supplied code archive.
+These changes address portability and an evident state-management error. They do not validate the statistical specifications or guarantee numerical equality with the submitted tables. This first record begins from prepared analysis datasets. Raw-to-panel cleaning and variable-construction code were not present in the supplied archive. Figure-source data and full figure-generation code are intentionally reserved for a second linked record.
 
 ## Data notes
 
 - The data are city-level or city-pair aggregates. No person-level fields were identified by the structural review.
-- Geographic names and city identifiers are present in some files. The manuscript states that the enterprise-level registration microdata cannot be publicly shared because of database access and commercial licensing restrictions. Confirm separately that redistribution of the processed city-year aggregates is permitted.
+- Geographic names, city identifiers, and coordinates are present in some files. The package contains only city-level or city-pair analytical data; it does not contain firm names, registered addresses, legal representatives, contacts, telephone numbers, email addresses, personal identifiers, or firm-level registration rows. The uploader confirmed that these bundled processed datasets may be uploaded publicly. The original enterprise-level registration microdata remain excluded.
 - Major sources identified in the manuscript are the China Industrial and Commercial Registered Enterprise Database, China City Statistical Yearbook, Ministry of Science and Technology policy documents, China National Intellectual Property Administration, Peking University Digital Financial Inclusion Index, and Zero2IPO Private Equity Database.
 - The manuscript defines the human-capital variable per million residents, but the Stata label says per 10,000 residents. It defines financial development as loans/GDP, while the Stata label suggests an interpolated logarithmic measure. Resolve both conflicts before release.
 - The three precomputed weight matrices contain 284 rows and 284 columns but no explicit row identifier. Their row and column ordering must be documented and verified before release.
@@ -99,8 +76,14 @@ These changes address portability and an evident state-management error. They do
 
 All 13 Stata files were readable. Candidate keys were unique and complete for the primary city-year panels, the traffic-distance pair table, and the source matrices where identifiers were present. The cleaned code passed a static path and syntax-risk audit, but it was not executed because Stata was not available in the preparation environment.
 
+## License
+
+The Stata code under `code/` is licensed under the MIT License (`LICENSE-code.txt`). Data, documentation, metadata, and result tables are licensed under the Creative Commons Attribution 4.0 International License (`LICENSE-data.txt`), except for third-party rights explicitly noted in those files.
+
 ## Citation
 
-Replace the placeholders in `CITATION.cff.template` and the Zenodo metadata template. After Zenodo assigns a DOI, cite the specific published version rather than this draft filename.
+Citation metadata is provided in `CITATION.cff`. After Zenodo assigns a DOI, cite the specific published version and add the DOI to the repository README and citation metadata.
 
-For GitHub-to-Zenodo archiving, complete and rename `CITATION.cff.template` to `CITATION.cff` and `.zenodo.json.template` to `.zenodo.json` before creating the GitHub release. If both metadata files are present, Zenodo uses `.zenodo.json` for the archived release, while GitHub uses `CITATION.cff` to display citation guidance.
+After the second figure-data-and-code record is published, add its DOI to this record with the relationship **Is supplemented by** (`IsSupplementedBy`). Add this first record's DOI to the figure record with **Is supplement to** (`IsSupplementTo`).
+
+For GitHub-to-Zenodo archiving, Zenodo uses `.zenodo.json` for the archived release, while GitHub uses `CITATION.cff` to display citation guidance.

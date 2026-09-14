@@ -1,0 +1,10 @@
+Licensing
+
+Copyright (c) 2026 Jihong Chen, Zijia Du, Siyang She, and Jianghao Xu.
+
+The materials in this repository use two licenses:
+
+1. Files under code/ are licensed under the MIT License. See LICENSE-code.txt.
+2. Data, documentation, metadata, result tables, and other non-code materials are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). See LICENSE-data.txt.
+
+Third-party source materials, database rights, trademarks, and content explicitly identified as belonging to another rights holder are not relicensed beyond the permissions applicable to those materials.
